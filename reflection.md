@@ -1,30 +1,42 @@
 # 🧮 Project Reflection: Simple Calculator
 
 ## 🧩 What I Built
-- A functional web calculator using HTML, CSS, and JavaScript
-- It handles basic math operations: addition, subtraction, multiplication, division
-- The display updates with each button click and shows the final result
+
+- A web-based calculator using HTML, CSS, and JavaScript
+- Supports basic math operations: addition, subtraction, multiplication, and division
+- The display updates in real time with each button press and shows the final result
 
 ## 📚 What I Learned
-- How to update input fields dynamically using JavaScript
-- How to structure button interactions with `onclick` events
-- How to use `eval()` safely to compute expressions
 
-## 🚧 What Was Tricky
-- Connecting all buttons to the right logic functions
-- Handling deletion and clear actions properly
-- Keeping the UI layout clean and intuitive
+- How to dynamically update input fields using JavaScript
+- How to connect buttons to functions using `onclick` events
+- How to evaluate math expressions safely using JavaScript’s Function constructor
 
-## ✨ Things I’m Proud Of
-- I created my first working JavaScript app!
-- The calculator responds instantly and feels responsive
-- Code is clean and organized across three files
+## 🚧 Challenges I Faced
+
+- Mapping each button to the correct logic function
+- Handling edge cases like deleting the last character or clearing the display
+- Designing a clean, intuitive layout that works on different screen sizes
+
+## ✨ What I’m Proud Of
+
+- This is my first fully functional JavaScript app!
+- The calculator responds quickly and works smoothly
+- My code is clean, well-organized, and split across HTML, CSS, and JS files
+
+## 🔧 Accessibility Improvements
+
+- Added ARIA labels for screen reader support
+- Enabled full keyboard navigation and visible focus styles
+- Ensured color contrast and touch target sizes meet accessibility standards
 
 ## 🔭 What I’d Like to Improve
-- Add keyboard support for number entry and operations
-- Create an error message for invalid expressions
-- Style the calculator to look more like a real one
+
+- Add keyboard shortcuts for number entry and operations
+- Display clearer error messages for invalid input
+- Style the calculator to resemble a physical calculator more closely
 
 ## 🚀 What’s Next
-- Build the To-Do List App to learn localStorage and list management
-- Explore dynamic UI updates and more advanced input handling
+
+- Build a To-Do List App to learn about localStorage and dynamic list management
+- Explore more advanced UI interactions and accessibility best practices
